@@ -71,8 +71,8 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={useBaseUrl('docs/onpremise')}>
+              Install on your server
             </Link>
           </div>
         </div>
