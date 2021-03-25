@@ -1,4 +1,6 @@
 ---
 title: Introduction
-slug: /plugins/introduction
+slug: /plugins
 ---
+
+Under construction

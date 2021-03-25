@@ -19,12 +19,12 @@ module.exports = {
       items: [
         {
           to: 'docs/onpremise',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          activeBasePath: 'docs/onpremise',
+          label: 'On Premise',
           position: 'left',
         },
         {
-          to: 'docs/plugins/introduction',
+          to: 'docs/plugins',
           activeBasePath: 'docs',
           label: 'Plugins',
           position: 'left',
@@ -38,8 +38,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/',
+              label: 'On premise',
+              to: 'docs/onpremise',
+            },
+            {
+              label: 'Plugins',
+              to: 'docs/plugins',
             },
           ],
         },
